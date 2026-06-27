@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime logs and temporary outputs
+logs/
+*.log
+*.jsonl
+frontend_snapshot_*.zip
+export/
+outputs/
+tmp/
+temp/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+.env
+
+# Large local model files
+*.gguf
+*.bin
+*.safetensors
+
+# Keep public demo snapshot assets and reviewed exports
+!demo_snapshot/export/
+!demo_snapshot/export/**
+!demo_snapshot/logs/
+!demo_snapshot/logs/README.md
