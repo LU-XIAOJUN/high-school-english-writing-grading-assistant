@@ -88,7 +88,7 @@ Relevant components include OCR-based text recognition, rubric-guided feedback g
 ## Repository Structure
 
 ```text
-gaokao-continuation-writing-assistant/
+high-school-english-writing-grading-assistant/
 ├── app.py
 ├── grader_module.py
 ├── requirements.txt
@@ -134,8 +134,8 @@ The model files are not included in this repository.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/gaokao-continuation-writing-assistant.git
-cd gaokao-continuation-writing-assistant
+git clone https://github.com/LU-XIAOJUN/high-school-english-writing-grading-assistant.git
+cd high-school-english-writing-grading-assistant
 python -m venv .venv
 ```
 
